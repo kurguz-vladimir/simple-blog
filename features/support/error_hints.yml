@@ -1,0 +1,62 @@
+Database:
+  "Check the DB":
+    1: ""
+    2: "Be sure that you have migration, which adds 'posts' table into DB. Refer to the step #3 - 'Generating Scaffold for Posts' for more information"
+    3: "Be sure that your migration adds all the necessary columns to the table and that this columns named correctly. Refer to the step #3 - 'Generating Scaffold for Posts' for more information"
+    4: "Check that you've specified wright data-types for columns in the migration. Refer to the steps #3 - 'Generating Scaffold for Posts' and #4 - 'Applying the Migration' for more information"
+
+"Post Scaffold":
+  "Check the Post Model":
+    1: ""
+    2: "Be sure that you've successfully generated scaffold for 'Post' (check the spelling). You should have file 'post.rb' in your 'depot/app/models' folder. Ensure that this file has definition of 'Post' class inheritated from 'ActiveRecord::Base'. The definition should looks like 'class Post < ActiveRecord::Base'. Refer to the step #3 - 'Generating Scaffold for Posts' for description"
+  "Check the PostsController":
+    1: ""
+    2: "Be sure that you've successfully generated scaffold for 'Post' (check the spelling). You should have file 'posts_controller.rb' in your 'depot/app/controllers' folder. Ensure that this file has definition of 'PostsController' class inheritated from 'ApplicationController'. The definition should looks like 'class PostsController < ApplicationController'. Refer to the step #3 - 'Generating Scaffold for Posts' for description"
+  "Check CRUID for PostsController":
+    1:
+    2: "Some pages of your project can't be accessed by their default generated addresses or they contains errors. Ensure that 'generate scaffold' command added 'resources :posts' line to your 'depot/config/routes.rb' file and that there is all of the index, show, new, edit, create, update and destroy methods defined in PostsController. Also be sure that you have no errors on all the post pages"
+
+"EditingPostsPages":
+  "Listing posts":
+    1: ""
+    2: ""
+  "Show post":
+    1: ""
+    2: ""
+    3: ""
+    4: ""
+    5: ""
+  "Edit post form":
+    1: ""
+    2: ""
+
+"Creating Comments":
+  "Adding Comments":
+    1: ""
+    2: "Be sure that you have migration, which adds 'comments' table into DB. Refer to the step #1 - 'Adding Comments' for more information"
+    3: "Be sure that your migration adds all the necessary columns to the table and that this columns named correctly. Refer to the step #1 - 'Adding Comments' for more information"
+    4: "Check that you've specified wright data-types for columns in the migration. Refer to the steps #1 - 'Adding Comments' for more information"
+    5: "Be sure that you've successfully generated scaffold for 'Comment' (check the spelling). You should have file 'comment.rb' in your 'depot/app/models' folder. Ensure that this file has definition of 'Comment' class inheritated from 'ActiveRecord::Base'. The definition should looks like 'class Comment < ActiveRecord::Base'. Refer to the step #1 - 'Adding Comments' for description"
+    6: "Be sure that you've successfully generated scaffold for 'Comment' (check the spelling). You should have file 'comments_controller.rb' in your 'depot/app/controllers' folder. Ensure that this file has definition of 'CommentsController' class inheritated from 'ApplicationController'. The definition should looks like 'class CommentsController < ApplicationController'. Refer to the step #1 - 'Adding Comments' for description"
+  "Relations":
+    1: ""
+    2: ""
+  "Check CRUID for CommentsController":
+    1: ""
+    2: ""
+  "List of Comments":
+    1: ""
+    2: ""
+  "Add Comment to the Post":
+    1: ""
+    2: ""
+    3: ""
+    4: ""
+    5: ""
+    6: ""
+  "Delete Comment":
+    1: ""
+    2: ""
+    3: ""
+    4: ""
+    5: ""

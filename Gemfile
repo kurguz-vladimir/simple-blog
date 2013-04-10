@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 
@@ -45,3 +45,5 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+source 'http://rubygems.org'

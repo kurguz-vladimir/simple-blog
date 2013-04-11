@@ -13,7 +13,7 @@
 <% @post.comments.each do |comment| %>
     <p><%= comment.text %></p>
     <p><%= time_ago_in_words comment.created_at %> ago</p>
-    <p><%=link_to "Delete comm", [@post, comment], method: :delete, confirm: 'Sure?'%></p>
+    <p><%=link_to "Delete comment", [@post, comment], method: :delete, confirm: 'Sure?'%></p>
 <% end %>
 
 <%= form_for [@post, @post.comments.build] do |f| %>
